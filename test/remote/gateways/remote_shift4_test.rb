@@ -97,6 +97,7 @@ class RemoteShift4Test < Test::Unit::TestCase
       indicator: '01',
       scheduled_indicator: '01'
     }
+    @options[:merchant_time_zone] = 'EST'
     first_response = @gateway.purchase(@amount, @credit_card, @options.merge(card_on_file_fields))
     assert_success first_response
 
