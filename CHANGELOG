@@ -3,6 +3,7 @@
 
 == HEAD
 * Element: Include Apple Pay - Google pay methods [jherrera] #4647
+* plexo: Add support to new 5 credit card brands (passcard, edenred, anda, tarjeta-d, sodexo) [edgarv09] #4652
 * dLocal: Add transaction query API(s) request [almalee24] #4584
 * MercadoPago: Add transaction inquire request [molbrown] #4588
 * Worldpay: Add transaction inquire request [molbrown] #4592
